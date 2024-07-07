@@ -1,0 +1,632 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:  #0f212f;
+}
+
+.leftbar{
+    width: 20%;
+    float: left;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.navcasinoandsports{
+    margin: 0px 15px 0px 15px;
+    height: 60px;
+    max-width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navcasinoandsports span{
+    color: white;
+}
+.containersnavaside{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.containersnavaside img{
+    height: 50px;
+    width: 80px;
+    max-width: 80px;
+    border-radius: 10px;
+}
+
+.containersnavaside h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    color: white;
+    font-size: medium;
+    position: absolute;
+    padding: 10px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+}
+
+.leftcontainers{
+
+    color: white;
+}
+
+.lefttboxes{
+    background-color: rgba(26,44,56,255);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 270px;
+}
+
+.leftcontainers h3{
+    padding: 10px 15px 10px 15px;
+}
+
+.leftcontainerstextsandicons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header{
+    background-color:#1a2c38; 
+    float: right;
+    width: 80%;
+    max-width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.header img{
+    width: 80px;
+    max-width: 80px;
+    cursor: pointer;
+}
+
+.moneyandwalletbuttons{
+    display: flex;
+}
+
+.moneybutton{
+    background-color: rgba(13,33,47,255);
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+.walletbutton{
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+    background-color: #1873de;
+    padding: 10px;
+    border-radius: 4px;
+    border-color:  #1873de;
+}
+
+.searchnavbar{
+    color: white;
+}
+
+.searchandicon{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-right: 15px;
+}
+
+.searchandicon strong{
+    padding: 0 0 3.5px 3px;
+    cursor: pointer;
+}
+
+.iconsnavbar{
+    display: flex;
+    float: right;
+    margin-left: 15px;
+}
+
+.header span{
+    cursor: pointer;
+}
+
+
+.welcomecontainer{
+    background-color: #0f212f;
+    float: right;
+    width: 80%;
+    max-width: 80%;
+    height: 370px;
+    max-height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomefathercontainer{
+    width: 400px;
+    max-width: 400px;
+}
+
+.welcomefathercontainer h4{
+    color: white;
+}
+
+.title{
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+.vipprogressbar{
+    background-color: #304654;
+    color:#878a9d ;
+    width: 100%;
+    border-radius: 70px;
+    text-align: center;
+}
+
+.level{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nonestar{
+display: flex;
+color: #878a9d;
+}
+.nonestar span{
+    color: #2f4250;
+}
+.bronzestar{
+display: flex;
+color: #878a9d;
+}
+.bronzestar span{
+    color: #82705a;
+}
+
+.principalimage{
+    float: right;
+}
+.principalimage img{
+    width: 700px;
+    max-width: 700px;
+}
+
+.sportsandcasinocontainers{
+    background-color: firebrick;
+}
+
+.sportsandcasinocontainers{
+    background-color: #1a2c38;
+    width: 80%;
+    max-width: 80%;
+    float: right;
+    display: flex;
+}
+
+.casinocont{
+
+    width: 50%;
+    float: left;
+}
+
+.casinologoandtitle{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+}
+.casinologoandtitle h4{
+    padding-left: 5px;
+}
+
+.casinocont img{
+padding: 10px 50px 10px 50px;
+border-radius: 52px;
+cursor: pointer;
+}
+.casinocont h5{
+    padding: 5px 0 5px 10px;
+    color: white;
+}
+.casinocont p{
+    padding-left: 10px;
+    font-size: small;
+    color: #9aa9bc;
+}
+
+.casinocont button{
+    width: 95%;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+    background-color: #1873de;
+    margin: 17px 10px 17px 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border-color:  #1873de;
+}
+
+.sportscont{
+
+    width: 50%;
+    float: right;
+}
+
+.sportslogoandtitle{
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+.sportslogoandtitle h4{
+    padding-left: 5px;
+}
+
+.sportscont img{
+padding: 10px 50px 10px 50px;
+border-radius: 52px;
+cursor: pointer;
+}
+.sportscont h5{
+    padding: 5px 0 5px 10px;
+    color: white;
+}
+.sportscont p{
+    padding-left: 10px;
+    font-size: small;
+    color: #9aa9bc;
+}
+
+.sportscont button{
+    width: 95%;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+    background-color: #1873de;
+    margin: 17px 10px 17px 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border-color:  #1873de;
+}
+
+.learnmoreandbuycrypto{
+    background-color: #1a2c38;
+    width: 80%;
+    max-width: 80%;
+    height: 70px;
+    max-height: 70px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnmoreanddrake{
+    background-color: #0f212f;
+    width: 80%;
+    max-width: 80%;
+    height: 60px;
+    max-height: 60px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learnmore{
+    display: flex;
+}
+.learnmore button{
+    width: 95%;
+    max-width: 95%;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+    background-color: #2f4553;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border-color:  #2f4553;
+}
+.stakeldrakel{
+    width: 95px;
+    display: flex;
+    align-items: center;
+}
+.stakeldrakel img{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+
+.drakeimage{
+    display: flex;
+    align-items: center;
+}
+.drakeimage img{
+    width: 160px;
+    max-width: 160px;
+}
+
+.buymethods{
+    background-color: #1a2c38;
+    width: 80%;
+    max-width: 80%;
+    height: 70px;
+    max-height: 70px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyingmethodsandtext{
+    background-color: #0f212f;
+    width: 80%;
+    max-width: 80%;
+    height: 60px;
+    max-height: 60px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.nocryptotext{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+}
+
+.buycbutton{
+    display: flex;
+}
+.buycbutton button{
+    width: 95%;
+    max-width: 95%;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+    background-color: #2f4553;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border-color:  #2f4553;
+}
+
+.paymethodslogos{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.paymethodslogos img{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+
+
+
+.tablecasinobets{
+    background-color: #1a2c38;
+    width: 80%;
+    max-width: 80%;
+    height: 100px;
+    max-height: 100px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.csrboard{
+    background-color: #0f212f;
+    color: white;
+    width: 400px;
+    max-width: 400px;
+    height: 60px;
+    max-height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.casinoselectedcontainer{
+    background-color: #2f4553;
+    width: 130px;
+    max-width: 130px;
+    height: 50px;
+    max-height: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.betstable{
+    background-color: #1a2c38;
+    width: 80%;
+    max-width: 80%;
+    height: 500px;
+    max-height: 500px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.databoard{
+    background-color:#1a2c38;
+    color: white;
+
+}
+.databoard th, td{
+    padding: 15px;
+}
+.moremoney{
+    color: greenyellow;
+}
+.diffcolortable{
+    background-color: #213945;
+}
+
+.firstpartfooter{
+    background-color:  #0f212f;
+    width: 80%;
+    max-width: 80%;
+    height: 350px;
+    max-height: 350px;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containersSCSCAL{
+    width: 160px;
+    max-width: 160px;
+    height: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.containersSCSCAL h4{
+    color: white;
+}
+.separationSubtFoot{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+.separationSubtFoot strong{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.containersSCSCAL li{
+    color: #9aa9bc;
+    cursor: pointer;
+}
+
+.toplogos{
+    background-color: #0f212f;
+    width: 80%;
+    max-width: 80%;
+    height: 100px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topImagescontainer{
+    width: 1150px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topImagescontainer img{
+    width: 150px;
+    height: 60px;
+}
+
+.bottomlogos{
+    background-color: #0f212f;
+    width: 80%;
+    max-width: 80%;
+    height: 100px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottomImagescontainer{
+    width: 1000px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottomImagescontainer img{
+    width: 150px;
+    height: 60px;
+}
+
+.partnersImages{
+    background-color: #0f212f;
+    width: 80%;
+    max-width: 80%;
+    height: 100px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: gray solid 1px;
+    border-top: gray solid 1px ;
+}
+.PimagesContainer{
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.PimagesContainer img{
+    width: 150px;
+    height: 90px;
+}
+
+footer{
+    background-color: #0f212f;
+    width: 80%;
+    max-width: 80%;
+    height: 300px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.StakeLogoandtextF{
+    height: 100%;
+    color:  #9aa9bc ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.StakeLogoandtextF img{
+    width: 80px;
+}
+.textalignerr{
+    text-align: center;
+}
